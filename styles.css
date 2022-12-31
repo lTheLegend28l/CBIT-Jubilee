@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+/* Containers */
+.colored-section {
+  background-color: #222831;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+/* Navbar */
+
+.logo {
+  width: 15%;
+}
+
+.navbar-brand {
+  margin-left: 2%;
+}
+
+.navbar-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 4%;
+}
+
+.register {
+  padding: 10%;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.navbar-button {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 19px;
+  font-weight: bolder;
+  border: 1px solid #2d63c8;
+  border-radius: 40px;
+  padding: 15px 50px;
+  margin-right: 80px;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  color: #000000;
+  background-color: #4258ff;
+}
+
+/* main page section */
+#main {
+  text-align: left;
+  padding: 4% 4%;
+}
+
+.cbit-img {
+  width: 100%;
+  border-radius: 3%;
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: #222831; */
+}
+
+.main-intro {
+  font-family: "Courgette", cursive;
+  color: #41454d;
+  margin-left: 2%;
+}
+
+.main-txt {
+  margin-top: 2%;
+  margin-bottom: 0;
+  margin-left: 2%;
+  font-size: 2rem;
+  color: #41454d;
+}
+
+/* details page section */
+#details {
+  text-align: center;
+  padding: 3% 0;
+}
+
+.details-heading {
+  font-weight: bolder;
+  padding-bottom: 2%;
+}
+
+.details-subheading {
+  padding-bottom: 2%;
+}
+
+.details-box {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2;
+  margin: auto;
+  padding: 5% 5%;
+  width: 80%;
+  height: 600px;
+  background-color: white;
+  color: black;
+  border-radius: 2%;
+}
+
+/* Footer section */
+#footer {
+  padding-top: 3%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.footer-header {
+  padding-bottom: 1%;
+}
+
+.footer-icon {
+  width: 3rem;
+  display: inline-block;
+}
+
+.footer-icon:hover,
+.footer-text:hover {
+  color: #2d63c8;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+/* Responsiveness */
+@media (max-width: 874px) {
+  .navbar-button {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .register-button {
+    margin-bottom: 5%;
+  }
+  .navbar-toggler {
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-intro {
+    margin-top: 5%;
+  }
+  .details-subheading {
+    margin-top: 7%;
+  }
+}
