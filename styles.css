@@ -19,26 +19,31 @@ h1 {
 
 .container-fluid {
   padding: 0;
-}
-
-.navbar-container {
   width: 100%;
 }
 
 /* Navbar */
-
 .logo {
-  width: 15%;
+  padding: 1%;
+  width: 9%;
 }
 
 .navbar-brand {
-  margin-left: 2%;
+  margin-left: 0;
 }
 
 .navbar-heading {
   font-size: 2rem;
   font-weight: bolder;
-  margin-left: 4%;
+  margin-left: 1%;
+}
+
+.navbar-heading:hover {
+  color: #2d63c8;
+}
+
+.navbar-heading-text {
+  margin-left: 1%;
 }
 
 .register {
@@ -144,16 +149,33 @@ h1 {
 
 .footer-text {
   font-size: 1.5rem;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
+.footer-text-bottom {
+  margin-bottom: 0;
+  padding-bottom: 2%;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text-bottom:hover {
+  color: #2d63c8;
+}
+
+/* Guest list page */
+#guest-list {
+  padding: 4% 4%;
+  text-align: center;
+}
+
+.temp-text {
+  font-size: 3rem;
+}
 /* Responsiveness */
 @media (max-width: 874px) {
-  .navbar-button {
-    margin-top: 5%;
-    margin-left: 5%;
-  }
   .register-button {
     margin-bottom: 5%;
   }
@@ -165,10 +187,21 @@ h1 {
 }
 
 @media (max-width: 991px) {
+  .navbar-button {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
   .main-intro {
     margin-top: 5%;
   }
   .details-subheading {
     margin-top: 7%;
+  }
+}
+
+@media (max-width: 1410px) {
+  .navbar-button {
+    margin-left: 1%;
+    margin-right: 1%;
   }
 }
