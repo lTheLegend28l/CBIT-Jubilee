@@ -174,7 +174,46 @@ h1 {
 .temp-text {
   font-size: 3rem;
 }
+
+/* Animation */
+#main {
+  animation: transitionInLeft 0.75s;
+}
+
+#details {
+  animation: transitionInRight 0.75s;
+}
+
+@keyframes transitionInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes transitionInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /* Responsiveness */
+@media (max-width: 600px) {
+  .navbar-heading {
+    display: inline;
+  }
+}
 @media (max-width: 874px) {
   .register-button {
     margin-bottom: 5%;
