@@ -70,66 +70,22 @@ h1 {
   background-color: #4258ff;
 }
 
-/* main page section */
-#main {
-  text-align: left;
-  padding: 4% 4%;
-}
-
-.cbit-img {
-  width: 100%;
-  border-radius: 3%;
-  /* border-style: solid;
-  border-width: 5px;
-  border-color: #222831; */
-}
-
-.main-intro {
-  font-family: "Courgette", cursive;
-  color: #41454d;
-  margin-left: 2%;
-}
-
-.main-txt {
-  margin-top: 2%;
-  margin-bottom: 0;
-  margin-left: 2%;
-  font-size: 2rem;
-  color: #41454d;
-}
-
-/* details page section */
-#details {
+/* Registration section */
+#registration {
+  padding-top: 5%;
   text-align: center;
-  padding: 3% 0;
+}
+/* Payment section */
+#payment {
+  padding: 3% 5%;
+  padding-top: 5%;
+  text-align: center;
 }
 
-.details-heading {
-  font-weight: bolder;
-  padding-bottom: 2%;
+.payment-button {
+  margin-top: 2%;
 }
 
-.details-subheading {
-  padding-bottom: 2%;
-}
-
-.details-box {
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 2;
-  margin: auto;
-  padding: 5% 5%;
-  width: 80%;
-  height: 600px;
-  background-color: white;
-  color: black;
-  border-radius: 2%;
-}
-
-.google-maps {
-  width: 90%;
-  height: 90%;
-}
 /* Footer section */
 #footer {
   padding-top: 3%;
@@ -167,16 +123,6 @@ h1 {
 
 .footer-text-bottom:hover {
   color: #2d63c8;
-}
-
-/* Guest list page */
-#guest-list {
-  padding: 4% 4%;
-  text-align: center;
-}
-
-.temp-text {
-  font-size: 3rem;
 }
 
 /* Animation */

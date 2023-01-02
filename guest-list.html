@@ -21,59 +21,62 @@
     <script
       src="https://kit.fontawesome.com/66f3075bb0.js"
       crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles-guest-list.css" />
   </head>
   <body>
-    <div class="container-fluid navbar-container colored-section">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand navbar-heading" href="index.html">
+    <section id="navbar" class="colored-section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <img class="logo" src="images/cbit-logo.png" alt="" />
-          Silver Jubilee Reunion Class of '98
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarToggler"
-          aria-controls="navbarToggler"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="#details"
-                ><button class="navbar-button" type="button" name="">
-                  Details
-                </button></a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="guest-list.html"
-                ><button class="navbar-button" type="button" name="">
-                  Guest List
-                </button></a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="register.html">
-                <button
-                  class="navbar-button register-button"
-                  type="button"
-                  name="">
-                  Register
-                </button>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+          <a class="navbar-brand navbar-heading" href="index.html">
+            Silver Jubilee Reunion - Class of '98
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#details"
+                  ><button class="navbar-button" type="button" name="">
+                    Details
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="guest-list.html"
+                  ><button class="navbar-button" type="button" name="">
+                    Guest List
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="register.html">
+                  <button
+                    class="navbar-button register-button"
+                    type="button"
+                    name="">
+                    Register
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
     <section id="guest-list">
-      <p class="temp-text">
-        Guest-list - PLACEHOLDER - THIS PAGE IS NOT FINISHED
-      </p>
+      <!-- Google Sheets integration -->
+      <iframe
+        class="google-sheets"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQEm_W3NXWgB_a2dGq-cAeRgJTJE4k83lf2l0JJ8OaXpgREMiwDstxnVwVgp2i8a9GLdG3P4U8RAQ8G/pubhtml?widget=true&amp;headers=false"></iframe>
     </section>
     <section class="colored-section" id="footer">
       <h2 class="footer-header">Questions?</h2>

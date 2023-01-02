@@ -98,38 +98,12 @@ h1 {
   color: #41454d;
 }
 
-/* details page section */
-#details {
-  text-align: center;
-  padding: 3% 0;
-}
-
-.details-heading {
-  font-weight: bolder;
-  padding-bottom: 2%;
-}
-
-.details-subheading {
-  padding-bottom: 2%;
-}
-
-.details-box {
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 2;
-  margin: auto;
-  padding: 5% 5%;
-  width: 80%;
-  height: 600px;
-  background-color: white;
-  color: black;
-  border-radius: 2%;
-}
-
-.google-maps {
+/* Guest list section */
+.google-sheets {
   width: 90%;
-  height: 90%;
+  height: 700px;
 }
+
 /* Footer section */
 #footer {
   padding-top: 3%;
