@@ -130,6 +130,15 @@ h1 {
   width: 90%;
   height: 90%;
 }
+/* cta section */
+#cta {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.cta-btn {
+  margin-top: 3%;
+}
 /* Footer section */
 #footer {
   padding-top: 3%;
@@ -169,16 +178,6 @@ h1 {
   color: #2d63c8;
 }
 
-/* Guest list page */
-#guest-list {
-  padding: 4% 4%;
-  text-align: center;
-}
-
-.temp-text {
-  font-size: 3rem;
-}
-
 /* Animation */
 #main {
   animation: transitionInLeft 0.75s;
@@ -213,39 +212,30 @@ h1 {
 }
 
 /* Responsiveness */
-@media (max-width: 600px) {
-  .navbar-heading {
-    display: inline;
+@media (max-width: 495px) {
+  .logo {
+    display: block;
+    margin: auto;
+    width: 20%;
   }
 }
 
 @media (max-width: 874px) {
-  .register-button {
-    margin-bottom: 5%;
-  }
   .navbar-toggler {
-    margin-top: 4%;
-    margin-left: 9%;
-    margin-bottom: 4%;
+    margin: auto;
   }
 }
 
 @media (max-width: 991px) {
-  .navbar-button {
-    margin-top: 5%;
-    margin-left: 5%;
+  .register-button {
+    margin: auto;
+    margin-bottom: 5%;
   }
-  .main-intro {
-    margin-top: 5%;
-  }
-  .details-subheading {
-    margin-top: 7%;
-  }
-}
 
-@media (max-width: 1410px) {
-  .navbar-button {
-    margin-left: 1%;
-    margin-right: 1%;
+  .nav-item {
+    display: inline-block;
+  }
+  .nav-item {
+    margin: auto;
   }
 }
