@@ -138,7 +138,10 @@ h1 {
 
 .cta-btn {
   margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
+
 /* Footer section */
 #footer {
   padding-top: 3%;
@@ -228,10 +231,11 @@ h1 {
 
 @media (max-width: 991px) {
   .register-button {
-    margin: auto;
     margin-bottom: 5%;
   }
-
+  .navbar-button {
+    margin-top: 5%;
+  }
   .nav-item {
     display: inline-block;
   }

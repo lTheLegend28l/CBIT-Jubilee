@@ -70,38 +70,19 @@ h1 {
   background-color: #4258ff;
 }
 
-/* main page section */
-#main {
-  text-align: left;
+/* Guest list page */
+#guest-list {
   padding: 4% 4%;
+  text-align: center;
 }
 
-.cbit-img {
-  width: 100%;
-  border-radius: 3%;
-  /* border-style: solid;
-  border-width: 5px;
-  border-color: #222831; */
+.guest-list-heading {
+  margin-bottom: 2%;
 }
 
-.main-intro {
-  font-family: "Courgette", cursive;
-  color: #41454d;
-  margin-left: 2%;
-}
-
-.main-txt {
-  margin-top: 2%;
-  margin-bottom: 0;
-  margin-left: 2%;
-  font-size: 2rem;
-  color: #41454d;
-}
-
-/* Guest list section */
 .google-sheets {
-  width: 90%;
-  height: 700px;
+  width: 80%;
+  height: 600px;
 }
 
 /* Footer section */
@@ -143,16 +124,6 @@ h1 {
   color: #2d63c8;
 }
 
-/* Guest list page */
-#guest-list {
-  padding: 4% 4%;
-  text-align: center;
-}
-
-.temp-text {
-  font-size: 3rem;
-}
-
 /* Animation */
 #main {
   animation: transitionInLeft 0.75s;
@@ -187,39 +158,31 @@ h1 {
 }
 
 /* Responsiveness */
-@media (max-width: 600px) {
-  .navbar-heading {
-    display: inline;
+@media (max-width: 495px) {
+  .logo {
+    display: block;
+    margin: auto;
+    width: 20%;
   }
 }
 
 @media (max-width: 874px) {
-  .register-button {
-    margin-bottom: 5%;
-  }
   .navbar-toggler {
-    margin-top: 4%;
-    margin-left: 9%;
-    margin-bottom: 4%;
+    margin: auto;
   }
 }
 
 @media (max-width: 991px) {
+  .register-button {
+    margin-bottom: 5%;
+  }
   .navbar-button {
     margin-top: 5%;
-    margin-left: 5%;
   }
-  .main-intro {
-    margin-top: 5%;
+  .nav-item {
+    display: inline-block;
   }
-  .details-subheading {
-    margin-top: 7%;
-  }
-}
-
-@media (max-width: 1410px) {
-  .navbar-button {
-    margin-left: 1%;
-    margin-right: 1%;
+  .nav-item {
+    margin: auto;
   }
 }
