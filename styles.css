@@ -106,11 +106,13 @@ h1 {
 
 .details-heading {
   font-weight: bolder;
-  padding-bottom: 2%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .details-subheading {
   padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 .details-box {
