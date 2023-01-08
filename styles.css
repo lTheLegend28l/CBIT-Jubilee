@@ -237,11 +237,19 @@ h1 {
   }
   .navbar-button {
     margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .nav-item {
     display: inline-block;
   }
   .nav-item {
     margin: auto;
+  }
+  .scaling-text {
+    font-size: 2.2vh;
+  }
+  .main-intro {
+    margin-top: 2vh;
   }
 }
